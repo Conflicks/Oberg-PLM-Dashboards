@@ -1,0 +1,369 @@
+h1 {
+	color: #235122;
+}
+ 
+.dashboardcontainer {
+	border-top: 2px solid green;
+} 
+
+.activeHeader {
+	border-top: 3px solid green !important;
+    width: 200px;
+    border-right: 3px solid green !important;
+     border-left: 3px solid green !important;
+    text-align: left;
+    margin-left: 0;
+    display: inline-block;
+    cursor: pointer;
+}
+.teamactiveHeader {
+	border-top: 3px solid green !important;
+    width: 200px;
+    border-right: 3px solid green !important;
+     border-left: 3px solid green !important;
+    text-align: left;
+    margin-left: 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dashheading {
+	display: inline-block;
+    border-top: 1px solid lightgrey;
+    width: 200px;
+    border-right: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;    
+    text-align: left;
+    margin-left: 0;
+    display: inline-block;
+    color: grey;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    -webkit-margin-before: 0em !important;
+    -webkit-margin-after: 0em !important;
+}
+
+
+.sortbox, .searchbox {
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+	vertical-align: top;
+
+}
+.customerselectcontainer, .orderselectcontainer {
+	margin: 2.5px 0 2.5px 0px;
+	padding: 2.5px 0 2.5px 0px;
+}
+
+
+.stageselect, .orderheading {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.dashboardarea {
+	display: block;
+	padding-top: 5px;
+}
+
+.orderheading {
+	padding-right: 10px;
+}
+
+.orderselectbutton {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.taskcontainer {
+	min-height: 150px;
+	width: 141px;
+	margin: 5px;
+	display: inline-block;
+	float: left;
+	animation: 4s ease;
+	padding: 5px 5px 5px 5px;
+	cursor: pointer;
+	border: 1px solid black;
+}
+
+.taskcontainer > h3, .taskcontainer > h4 {
+	text-align: center;
+
+
+}
+
+span.orderheading > h3, span.orderheading > h2{
+	display: inline;
+}
+
+.customerselect, .orderselect {
+	min-width: 200px;
+	float: right;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+#chevron {
+	background-image: url('https://oberg.sharepoint.com/_catalogs/masterpage/PLMDashboards/img/chev64.png');
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	vertical-align: middle;
+	margin-top: 78px;
+	background-size: cover;
+}
+#loader {
+	background-image: url('https://oberg.sharepoint.com/_catalogs/masterpage/PLMDashboards/img/loading_create.gif');
+	display: inline-block;
+	height: 450px;
+	width: 600px;
+	vertical-align: middle;
+
+	background-size: cover;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+}
+
+
+.taskouter {
+	display: inline-block;
+}
+
+.completed {
+	color: white !important;
+	background-color: #2ecc71;
+	border: 1px solid #2ecc71;
+}
+.completedlate {
+	color: white !important;
+	background-color: orange;
+	border: 1px solid red;
+}
+.late {
+	color: white !important;
+	background-color: #e74c3c;
+	border: 1px solid #e74c3c;
+}
+
+.inprogress {
+	color: white !important;
+	background-color: #f1c40f;
+	border: 1px solid #f1c40f;
+
+}
+
+.notassigned {
+	background-color: none;
+	border: 1px solid black;	
+}
+#NotStarted {
+	background-color: none;
+	border: 1px solid black;
+}
+
+
+#Completed {
+	color: white !important;
+	background-color: #2ecc71;
+	border: 1px solid #2ecc71;
+}
+#CompletedLate {
+
+	background-color: orange;
+	border: 1px solid red;
+}
+#Late {
+	color: white !important;
+	background-color: #e74c3c;
+	border: 1px solid #e74c3c;
+}
+
+#InProgress {
+
+	background-color: #f1c40f;
+	border: 1px solid #f1c40f;
+
+}
+
+
+
+
+
+
+.completed  h3, .completed  h4, .late h3, .late h4,  .completedlate h3, .completedlate h4 {
+	color: #ecf0f1;
+}
+
+
+.ordercontainer:last-child(1) #chevron {
+	display: none;
+
+}
+
+.dashboardcontainer #s4-ribbonrow {
+	display: none;
+}
+
+table, tr, th, td {
+	border: 1px solid black;
+
+}
+
+th, td {
+	max-width: 100px;
+	vertical-align: middle;
+}
+.stagedate {
+	text-align: center;
+}
+
+.stageheading {
+	font-weight: bold;
+}
+
+.openorder {
+	cursor: pointer;
+}
+
+.openorder:hover {
+	text-decoration: underline;	
+}
+
+#refresh {
+	background-image: url('https://oberg.sharepoint.com/_catalogs/masterpage/PLMDashboards/img/refresh.png');
+	display: inline-block;
+	height: 32px;
+	width: 32px;
+	background-size: cover;
+	float: left;
+    cursor: pointer;
+
+}
+#refreshorder {
+	background-image: url('https://oberg.sharepoint.com/_catalogs/masterpage/PLMDashboards/img/refresh.png');
+	display: inline-block;
+	height: 32px;
+	width: 32px;
+	background-size: cover;
+    cursor: pointer;
+
+}
+
+
+#ordercolumnhead h3 {
+	font-weight: bold;
+	line-height: 32px;
+	margin-left: 10px;
+	float: left;
+}
+
+.aligntop {
+	line-height: 32px;
+	vertical-align: top;
+	display: inline;
+}
+
+.resourceCard {
+	height: 150px;
+	width: 225px;
+	margin: 5px;
+	display: inline-block;
+	float: left;
+	animation: 4s ease;
+	padding: 5px 5px 5px 5px;
+	cursor: pointer;
+	border: 1px solid black;
+	text-align: center;
+	background-color: #ecf0f1;
+}
+
+.teamSelect {
+	margin: 5px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+#teamContainer {
+	border: 1px solid green;
+	display: inline-block;
+	width: 500px;
+	float: left;
+	margin-right: 10px;
+}
+
+#teamTasksContainer {
+	width: 50%;
+	display: inline-block;
+	padding-left: 10px;
+	border: 1px solid green;
+}
+
+#teamlabel {
+	display: inline-block;
+}
+
+.memberbutton {
+	display: block;
+	height: 30px;
+	width: auto;
+	background-color: green;
+	color: white;
+}
+
+.memberbutton  span {
+	line-height: 30px;
+}
+
+.selectedMember {
+	background-color: rgba(0,128,0,0.3);
+}
+
+#teamtabdiv {
+	border-bottom: 2px solid green;
+	margin-top: 10px;
+}
+
+.mytaskcontainer {
+	min-height: 85px;
+	width: 200px;
+	margin: 5px;
+	display: inline-block;
+	float: left;
+	animation: 4s ease;
+	padding: 5px 5px 5px 5px;
+	cursor: pointer;
+	border: 1px solid black;
+}
+
+#formframe {
+	width: 100%;
+	min-width: 800px;
+	height: auto;
+	min-height: 500px;
+}
+
+.memberorder {
+	clear: both;
+	float: left;
+}
+
+.filteredOrder {
+	display: block;
+	height: auto;
+	width: auto;
+}
+.filteredOrderTasks {
+	display: inline-block;
+	float: left;
+	clear: both;
+	height: auto;
+	width: auto;
+}
+
+.filteredOrderHeading {
+	display: inline-block;
+	float: left;
+}
